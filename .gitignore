@@ -1,7 +1,7 @@
 ############################################################################
 # NodeJS specific gitignore
 # https://github.com/github/gitignore/blob/master/Node.gitignore
-
+config/
 
 # Logs
 logs
