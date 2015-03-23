@@ -11,10 +11,12 @@
     "raygun": "^0.5.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.1"
+    "chai": "^2.1.2",
+    "coveralls": "^2.11.1",
+    "mocha": "^2.2.1"
   },
   "scripts": {
-    "test": "mocha -R spec test/"
+    "test": "./node_modules/mocha/bin/mocha -R spec test/"
   },
   "author": "Abiy Seifu",
   "license": "MIT",
