@@ -1,14 +1,14 @@
 {
   "name": "winston-raygun",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Raygun transport for winston.",
   "main": "./lib/winston_raygun.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "winston": "^0.8.3",
-    "raygun": "^0.5.0"
+    "raygun": "^0.6.2",
+    "winston": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^2.1.2",
