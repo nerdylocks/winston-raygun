@@ -1,6 +1,6 @@
 {
   "name": "winston-raygun",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Raygun transport for winston.",
   "main": "./lib/winston_raygun.js",
   "directories": {
