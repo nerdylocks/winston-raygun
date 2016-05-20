@@ -1,0 +1,6 @@
+((nil . ((js2-basic-offset . 2)
+         (json-reformat:indent-width . 2)
+         (mocha-command . "node_modules/.bin/mocha")
+         ;; (mocha-environment-variables . "NODE_ENV=test")
+         (mocha-options . "--recursive --reporter dot -t 5000")
+         )))
