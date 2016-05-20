@@ -1,7 +1,7 @@
-var chai    = require('chai');
+var chai      = require('chai');
 var intercept = require("intercept-stdout");
-var winston = require('winston');
-var Raygun  = require(__dirname+'/../lib/winston_raygun.js');
+var winston   = require('winston');
+var Raygun    = require(__dirname+'/../lib/winston_raygun.js');
 
 describe('Winston Raygun transport', function(){
 
@@ -25,7 +25,8 @@ describe('Winston Raygun transport', function(){
       'Err1 String',
       error_object,
       'Err3 String',
-      //new Error('Err4 Error object'),
+      // This produces a long stack-trace:
+      // new Error('Err4 Error object'),
       'Err5 string',
       false,
       9);
