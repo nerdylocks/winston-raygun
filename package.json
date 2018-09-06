@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "dependencies": {
-    "winston": "^0.8.3",
-    "raygun": "^0.5.0"
+    "raygun": "^0.10.0",
+    "winston": "^0.8.3"
   },
   "devDependencies": {
     "chai": "^2.1.2",
